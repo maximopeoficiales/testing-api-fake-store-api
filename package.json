@@ -1,0 +1,16 @@
+{
+  "dependencies": {
+    "chai": "^4.3.6",
+    "chai-http": "^4.3.0"
+  },
+  "name": "testing-api-fake-store-api",
+  "version": "1.0.0",
+  "description": "Test de api fake",
+  "main": "dist/index.js",
+  "scripts": {
+    "test": "npx mocha src/*.ts",
+    "clean": "rm -fr dist"
+  },
+  "author": "Maximo Apaza Chirhuana",
+  "license": "ISC"
+}
